@@ -1,7 +1,9 @@
+import Hero from "../_components/Hero";
+
 export default function WorkspacePage() {
   return (
     <div>
-      <h1>Workspace</h1>
+      <Hero/>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import {
   ClerkProvider
 } from '@clerk/nextjs'
 import Provider from "./Provider.tsx";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,6 +32,7 @@ export default function RootLayout({
         >
         <Provider>
           {children}
+          <Toaster/>
         </Provider>
         </body>
       </html>
