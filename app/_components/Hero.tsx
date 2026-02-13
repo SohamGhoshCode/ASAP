@@ -87,7 +87,7 @@ const Hero = () => {
           </SignInButton> :
 
                 <Button disabled= {!userInput || loading} onClick={CreateNewProject}>
-                  {loading?<Loader2Icon className='animate-spin'/>: <ArrowRight/>}</Button>
+                  {loading?<Loader2Icon className='animate-spin'/>: <ArrowUp/>}</Button>
 
           }
           
